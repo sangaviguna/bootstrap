@@ -1,0 +1,371 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #features{
+     text-align: center;
+   }
+   #features{
+     margin: 0 0 20px;
+   }
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   .well .pageheader{
+    margin-top: 0px;
+    }
+    .well .pageheader h1{
+     margin-top: 0px;
+     }
+     body{
+       -webkit-font-smoothing:antialised;
+       text-transform:optimizeligiability;
+
+            }
+     .alert{
+       margin-top: 20px;
+       display:none;
+     }
+     .well{
+       margin: 20px 0;
+     }
+     #moreInfo{
+       margin-bottom: 20px;
+     }
+
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+     width:200px;
+   }
+   .navbar-brand{
+     padding: 13px 15px;
+   }
+   #unesco{
+     margin-top: 30px;
+   }
+   #unesco1{
+     background: #EF5350;
+     text-align: center;
+   }
+   #unesco2{
+     background: #2196F3;
+     text-align: center;
+   }
+   #unesco3{
+     background:#8BC34A ;
+     text-align: center;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   .carousel-caption {
+     font-size: 24px;
+   }
+   .carousel-caption h4{
+     font-size: 32px;
+   }
+#myCarousel .item{
+  height: 400px;
+}
+#slide1{
+  background: url('../../images/carousel_medium_01.jpg')top center no-repeat;
+}
+#slide2{
+  background: url('../../images/carousel_medium_02.jpg')top center no-repeat;
+}
+#slide3{
+  background: url('../../images/carousel_medium_03.jpg')top center no-repeat;
+}
+#slide4{
+  background: url('../../images/carousel_medium_04.jpg')top center no-repeat;
+}
+#slide5{
+  background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+}
+#slide6{
+  background: url('../../images/carousel_medium_06.jpg')top center no-repeat;
+}
+#acc1{
+  background: url('../../images/acc_medium_01.jpg')top center no-repeat;
+}
+#acc2{
+  background: url('../../images/acc_medium_02.jpg')top center no-repeat;
+}
+#acc3{
+  background: url('../../images/acc_medium_03.jpg')top center no-repeat;
+}
+#acc4{
+  background: url('../../images/acc_medium_04.jpg')top center no-repeat;
+}
+#acc5{
+  background: url('../../images/acc_medium_05.jpg')top center no-repeat;
+}
+#acc6{
+  background: url('../../images/acc_medium_06.jpg')top center no-repeat;
+}
+#food1{
+  background: url('../../images/food_medium_01.jpg')top center no-repeat;
+}
+#food2{
+  background: url('../../images/food_medium_02.jpg')top center no-repeat;
+}
+#food3{
+  background: url('../../images/food_medium_03.jpg')top center no-repeat;
+}
+#food4{
+  background: url('../../images/food_medium_04.jpg')top center no-repeat;
+}
+#food5{
+  background: url('../../images/food_medium_05.jpg')top center no-repeat;
+}
+#food6{
+  background: url('../../images/food_medium_06.jpg')top center no-repeat;
+}
+
+
+
+#myCarousel{
+  margin-top: 0px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .tabbable img.thumbnail{
+     margin: 0 20px 10px 0;
+   }
+   #inputMessage{
+     margin-bottom: 15px;
+   }
+   .thumbnails{
+     margin: 20px 0;
+   }
+   .thumbnail{
+     position: relative;
+   }
+   .thumbnail h3{
+     font-size: 16px;
+     margin: 0 0 10px;
+     line-height: 20px;
+   }
+   .thumbnail .price{
+     position: absolute;
+     font-size:22px;
+     top: -10px ;
+     right: -10px;
+     padding: 10px;
+   }
+   .thumbnail .price .sup{
+     font-weight: normal;
+     font-size: 12px;
+    }
+    .thumbnail span.glyphicon{
+      margin-right: 5px;
+    }
+    footer{
+      background: #333;
+      color: #eee;
+      font-size: 11px;
+      padding: 20px;
+    }
+    ul.unstyled{
+      list-style: none;
+      padding: 0;
+    }
+    #center-image{
+      text-align:  center;
+    }
+    #head-color{
+
+      background:#03A9F4
+    }
+    body{
+      background: #E1F5FE;
+    }
+    #bigCallout p{
+      text-align: justify;
+    }
+ #featuresHeading{
+   margin-left: 10px;
+ }
+ #moreInfo{
+   text-align: justify;
+ }
+ #features{
+
+ }
+#head-color{
+  width: 100%;
+  margin-left: 0px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+.thumbnail .price{
+  font-size: 14px;
+}
+.thumbnail .price sup{
+  font-size: 10px;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{
+    height: 310px;
+  }
+  #slide1{
+  background: url('../../images/carousel_small_01.jpg')top center no-repeat;
+  }
+  #slide2{
+  background: url('../../images/carousel_small_02.jpg')top center no-repeat;
+  }
+  #slide3{
+  background: url('../../images/carousel_small_03.jpg')top center no-repeat;
+  }
+  #slide4{
+  background: url('../../images/carousel_small_04.jpg')top center no-repeat;
+  }
+  #slide5{
+  background: url('../../images/carousel_small_05.jpg')top center no-repeat;
+  }
+  #slide6{
+  background: url('../../images/carousel_small_06.jpg')top center no-repeat;
+  }
+  #acc1{
+  background: url('../../images/acc_small_01.jpg')top center no-repeat;
+  }
+  #acc2{
+  background: url('../../images/acc_small_02.jpg')top center no-repeat;
+  }
+  #acc3{
+  background: url('../../images/acc_small_03.jpg')top center no-repeat;
+  }
+  #acc4{
+  background: url('../../images/acc_small_04.jpg')top center no-repeat;
+  }
+  #acc5{
+  background: url('../../images/acc_small_05.jpg')top center no-repeat;
+  }
+  #acc6{
+  background: url('../../images/acc_small_06.jpg')top center no-repeat;
+  }
+  #food1{
+  background: url('../../images/food_small_01.jpg')top center no-repeat;
+  }
+  #food2{
+  background: url('../../images/food_small_02.jpg')top center no-repeat;
+  }
+  #food3{
+  background: url('../../images/food_small_03.jpg')top center no-repeat;
+  }
+  #food4{
+  background: url('../../images/food_small_04.jpg')top center no-repeat;
+  }
+  #food5{
+  background: url('../../images/food_small_05.jpg')top center no-repeat;
+  }
+  #food6{
+  background: url('../../images/food_small_06.jpg')top center no-repeat;
+  }
+
+
+  .carousel-caption{
+    font-size: 16px;
+  }
+  .carousel-caption h4{
+    font-size: 22px;
+  }
+
+  #foot1{
+    text-align:  center;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#myCarousel .item{
+  height: 500px;
+}
+#slide1{
+background: url('../../images/carousel_large_01.jpg')top center no-repeat;
+}
+#slide2{
+background: url('../../images/carousel_large_02.jpg')top center no-repeat;
+}
+#slide3{
+background: url('../../images/carousel_large_03.jpg')top center no-repeat;
+}
+#slide4{
+background: url('../../images/carousel_large_04.jpg')top center no-repeat;
+}
+#slide5{
+background: url('../../images/carousel_large_05.jpg')top center no-repeat;
+}
+#slide6{
+background: url('../../images/carousel_large_06.jpg')top center no-repeat;
+}
+#acc1{
+background: url('../../images/acc_large_01.jpg')top center no-repeat;
+}
+#acc2{
+background: url('../../images/acc_large_02.jpg')top center no-repeat;
+}
+#acc3{
+background: url('../../images/acc_large_03.jpg')top center no-repeat;
+}
+#acc4{
+background: url('../../images/acc_large_04.jpg')top center no-repeat;
+}
+#acc5{
+background: url('../../images/acc_large_05.jpg')top center no-repeat;
+}
+#acc6{
+background: url('../../images/acc_large_06.jpg')top center no-repeat;
+}
+#food1{
+background: url('../../images/food_large_01.jpg')top center no-repeat;
+}
+#food2{
+background: url('../../images/food_large_02.jpg')top center no-repeat;
+}
+#food3{
+background: url('../../images/food_large_03.jpg')top center no-repeat;
+}
+#food4{
+background: url('../../images/food_large_04.jpg')top center no-repeat;
+}
+#food5{
+background: url('../../images/food_large_05.jpg')top center no-repeat;
+}
+#food6{
+background: url('../../images/food_large_06.jpg')top center no-repeat;
+}
+
+}
